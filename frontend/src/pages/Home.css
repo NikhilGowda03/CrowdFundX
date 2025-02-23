@@ -1,0 +1,292 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Container */
+.home-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #25a36f;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  padding: 8px 12px;
+  width: 40%;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+}
+
+.search-icon {
+  color: #555;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.create-btn {
+  background-color: #ff6b35;
+  color: white;
+  font-weight: bold;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.create-btn:hover {
+  background-color: #ff3d00;
+}
+
+/* Category Navigation */
+.category-nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.category-nav a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #eee;
+  transition: 0.3s;
+}
+
+.category-nav a:hover {
+  background: #ff6b35;
+  color: white;
+}
+
+/* Featured Projects */
+.featured-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.project-card button {
+  margin-top: 10px;
+  background: #25a36f;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-card button:hover {
+  background: #1e8659;
+}
+
+/* Trending Campaigns */
+.bg-white {
+  background: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.border-l-8 {
+  border-left-width: 8px;
+}
+
+.border-orange-500 {
+  border-left-color: #ff6b35;
+}
+
+.text-gray-800 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-left: 4px solid #ccc;
+  transition: 0.3s;
+}
+
+li:hover {
+  border-left: 4px solid #ff6b35;
+}
+
+/* Call to Action */
+.bg-indigo-700 {
+  background: #4b0082;
+}
+
+.text-white {
+  color: white;
+}
+
+.py-16 {
+  padding: 40px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-4xl {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.mt-10 {
+  margin-top: 40px;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bg-white {
+  background: white;
+  color: #4b0082;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bg-white:hover {
+  background: #ddd;
+}
+
+/* Footer */
+.bg-gray-900 {
+  background: #222;
+}
+
+.py-12 {
+  padding: 50px 0;
+}
+
+.max-w-4xl {
+  max-width: 600px;
+  margin: auto;
+}
+
+.text-xl {
+  font-size: 20px;
+}
+
+.text-gray-400 {
+  color: #aaa;
+}
+
+.mt-6 {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.space-x-6 a {
+  color: #aaa;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.space-x-6 a:hover {
+  color: white;
+}
